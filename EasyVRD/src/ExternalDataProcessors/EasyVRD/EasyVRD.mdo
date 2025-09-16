@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d346a948-4afc-4012-ba48-e017f31d1455">
+  <producedTypes>
+    <objectType typeId="8f7e264c-17cf-49a7-bda1-a7159ebdbddc" valueTypeId="0c998636-bf89-441a-917a-f0a4fc60576c"/>
+  </producedTypes>
+  <name>EasyVRD</name>
+  <synonym>
+    <key>ru</key>
+    <value>Easy VRD</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="7a797bb6-4ac9-4bec-806d-7c5b2a680ef6"/>
+  <defaultForm>ExternalDataProcessor.EasyVRD.Form.Форма</defaultForm>
+  <forms uuid="97acee8f-6dcf-4a87-83be-ada1f4359922">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
