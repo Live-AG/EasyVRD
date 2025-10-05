@@ -7,50 +7,8 @@
       <name>СтраницаОсновные</name>
       <id>3</id>
       <items xsi:type="form:FormField">
-        <name>ИмяБазы</name>
-        <id>15</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ИмяБазы</segments>
-        </dataPath>
-        <extendedTooltip>
-          <name>ИмяБазыРасширеннаяПодсказка</name>
-          <id>17</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>ИмяБазыКонтекстноеМеню</name>
-          <id>16</id>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>InputField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormField">
         <name>ВебСервер</name>
         <id>18</id>
-        <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -91,7 +49,6 @@
       <items xsi:type="form:FormField">
         <name>Каталог</name>
         <id>21</id>
-        <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -112,6 +69,47 @@
         <contextMenu>
           <name>КаталогКонтекстноеМеню</name>
           <id>22</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <extendedEditMultipleValues>true</extendedEditMultipleValues>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ИмяБазы</name>
+        <id>15</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ИмяБазы</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ИмяБазыРасширеннаяПодсказка</name>
+          <id>17</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ИмяБазыКонтекстноеМеню</name>
+          <id>16</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -642,7 +640,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
+            <heightInTableRows>5</heightInTableRows>
             <autoMaxRowsCount>true</autoMaxRowsCount>
             <selectionMode>MultiRow</selectionMode>
             <header>true</header>
@@ -1104,6 +1102,7 @@
             <changeRowOrder>true</changeRowOrder>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
+            <heightInTableRows>5</heightInTableRows>
             <autoMaxRowsCount>true</autoMaxRowsCount>
             <selectionMode>MultiRow</selectionMode>
             <header>true</header>
@@ -1702,9 +1701,7 @@
         </contextMenu>
         <changeRowSet>true</changeRowSet>
         <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <heightInTableRows>4</heightInTableRows>
-        <autoMaxRowsCount>true</autoMaxRowsCount>
+        <heightInTableRows>3</heightInTableRows>
         <selectionMode>MultiRow</selectionMode>
         <headerHeight>1</headerHeight>
         <footerHeight>1</footerHeight>
@@ -3405,6 +3402,36 @@
     <items xsi:type="form:FormGroup">
       <name>СтраницаDefaultVRD</name>
       <id>264</id>
+      <items xsi:type="form:Button">
+        <name>СохранитьФайл</name>
+        <id>272</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СохранитьФайлРасширеннаяПодсказка</name>
+          <id>273</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualButton</type>
+        <commandName>Form.Command.СохранитьФайл</commandName>
+        <representation>PictureAndText</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <groupHorizontalAlign>Right</groupHorizontalAlign>
+        <placementArea>UserCmds</placementArea>
+        <picture xsi:type="core:PictureRef">
+          <picture>StdPicture.Write</picture>
+        </picture>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <items xsi:type="form:FormField">
         <name>ТекстНастройки</name>
         <id>266</id>
@@ -3444,6 +3471,16 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
+          <textColor xsi:type="core:ColorDef">
+            <red>204</red>
+            <green>204</green>
+            <blue>204</blue>
+          </textColor>
+          <backColor xsi:type="core:ColorDef">
+            <red>12</red>
+            <green>12</green>
+            <blue>12</blue>
+          </backColor>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -4502,6 +4539,23 @@
       </handler>
     </action>
     <representation>Picture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СохранитьФайл</name>
+    <title>
+      <key>ru</key>
+      <value>Сохранить файл</value>
+    </title>
+    <id>3</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СохранитьФайл</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
