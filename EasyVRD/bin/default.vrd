@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<point xmlns="http://v8.1c.ru/8.2/virtual-resource-system"
+		xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		base="/"
+		ib="&quot;File=&quot;G:\1C_Bases\Nexus&quot;;&quot;"
+		enable="true">
+	<ws enable="true"
+			pointEnableCommon="true"
+			publishExtensionsByDefault="false">
+		<point name="InterfaceVersion"
+				alias="InterfaceVersion.1cws"
+				enable="true"
+				reuseSessions="dontuse"
+				sessionMaxAge="20"
+				poolSize="10"
+				poolTimeout="5">
+			<accessTokenAuthentication>
+				<issuers/>
+				<accessTokenRecepientName/>
+			</accessTokenAuthentication>
+		</point>
+	</ws>
+	<httpServices publishByDefault="false"
+			publishExtensionsByDefault="false"/>
+	<analytics enable="true"
+			sessionMaxAge="1200"
+			poolSize="500"
+			poolTimeout="5"/>
+	<standardOdata enable="true"
+			reuseSessions="autouse"
+			sessionMaxAge="20"
+			poolSize="10"
+			poolTimeout="5"/>
+</point>
