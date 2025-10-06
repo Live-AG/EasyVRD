@@ -122,6 +122,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
           <extendedEditMultipleValues>true</extendedEditMultipleValues>
+          <autoMarkIncomplete>true</autoMarkIncomplete>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
