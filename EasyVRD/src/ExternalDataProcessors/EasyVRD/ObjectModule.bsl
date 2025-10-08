@@ -292,7 +292,7 @@
 	
 	DebugXDTO.enable 	= XMLСтрока(Истина);
 	DebugXDTO.protocol	= ДанныеЗаполнения.Отладка;
-	DebugXDTO.url		= ДанныеЗаполнения.АдресОтладчика;
+	DebugXDTO.url			= ДанныеЗаполнения.АдресОтладчика;
 	
 	PointXDTO.debug = DebugXDTO;
 
